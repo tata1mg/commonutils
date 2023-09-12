@@ -1,0 +1,11 @@
+aiobotocore~=2.5
+aiohttp~=3.7
+botocore~=1.29
+cloudinary~=1.23
+formencode~=2.0
+multidict~=5.1
+pylint~=2.7
+ujson~=5.4
+python-jose~=3.3
+cryptography~=41.0
+mmh3
