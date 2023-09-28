@@ -8,9 +8,11 @@ __all__ = [
     "EventBridgeSchedulerType",
     "EVENT_SCHEDULER_CREATE_DEFINITION",
     "Constant",
+    "HTTPMethods"
 ]
 
 from .constant import (DEFAULTS, EVENT_SCHEDULER_CREATE_DEFINITION,
                        AwsErrorType, Constant, DelayQueueTime,
-                       EventBridgeSchedulerType, HttpHeaderType, SQSQueueType)
+                       EventBridgeSchedulerType, SQSQueueType)
 from .error_messages import ErrorMessages
+from .http import HTTPMethods, HttpHeaderType

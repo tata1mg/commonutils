@@ -9,3 +9,4 @@ ujson~=5.4
 python-jose~=3.3
 cryptography~=41.0
 mmh3
+pydantic~=1.9.0

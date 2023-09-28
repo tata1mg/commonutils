@@ -48,12 +48,6 @@ class PrefixType(Enum):
     ORDER = "O"
 
 
-class HttpHeaderType(Enum):
-    CONTENT_TYPE = "Content-Type"
-    ACCEPT = "Accept"
-    AUTHORIZATION = "Authorization"
-
-
 class SQSQueueType(CustomEnum):
     STANDARD_QUEUE = "sqs"
     STANDARD_QUEUE_FIFO = "sqs.fifo"
