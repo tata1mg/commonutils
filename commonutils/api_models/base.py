@@ -52,6 +52,8 @@ class ApiModelBaseClass:
 
     _uri = None
     _method = None
+    _summary = ""
+    _description = ""
     _request_params = None
     _request_body = None
     _data = None
@@ -116,3 +118,15 @@ class ApiModelBaseClass:
     @classmethod
     def get_request_body(cls):
         return cls._request_body
+
+    @classmethod
+    def uri(cls):
+        return cls._uri
+
+    @classmethod
+    def description(cls):
+        return cls._description
+
+    @classmethod
+    def summary(cls):
+        return cls._summary
