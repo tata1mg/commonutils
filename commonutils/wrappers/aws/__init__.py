@@ -7,6 +7,8 @@ __all__ = [
     "Presigner",
     "SchedulerClientWrapper",
     "BaseLambdaWrapper",
+    "SNSClient",
+    "BaseSNSWrapper"
 ]
 
 from .aws_client import AWSClient
@@ -14,3 +16,4 @@ from .event_bridge_scheduler import SchedulerClientWrapper
 from .lambdaa import BaseLambdaWrapper
 from .s3 import BaseS3Wrapper, Presigner, S3Client
 from .sqs import BaseSQSWrapper, SQSClient
+from .sns import BaseSNSWrapper, SNSClient

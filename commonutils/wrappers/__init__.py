@@ -11,5 +11,5 @@ __all__ = [
 
 
 from .aws import (AWSClient, BaseS3Wrapper, BaseSQSWrapper, Presigner,
-                  S3Client, SchedulerClientWrapper, SQSClient)
+                  S3Client, SchedulerClientWrapper, SQSClient, SNSClient, BaseSNSWrapper)
 from .producer_consumer import RedisProducerConsumerManager
